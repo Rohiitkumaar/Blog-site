@@ -1,0 +1,42 @@
+
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.3s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.item:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-5px);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+.summary {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: #666666;
+}
+
+.author {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #999999;
+}

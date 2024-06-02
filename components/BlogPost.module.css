@@ -1,0 +1,33 @@
+/* components/BlogPost.module.css */
+
+.article {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #0070f3;
+  background: linear-gradient(45deg, #3c7752, #359dd1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.author {
+  margin-left: auto; /* Push the author name to the right */
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+.content {
+  line-height: 1.8;
+  font-size: 1.2rem;
+  color: #444;
+}
